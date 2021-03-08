@@ -6,6 +6,7 @@ public class DataBasePage {
 	
 	public static String getData(String columnName) throws ClassNotFoundException, SQLException {
 		  // Setting properties for mysql
+//			test
 		  Class.forName("com.mysql.cj.jdbc.Driver");
 		  // creating a connection to your local database
 		  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/august2020", "root", "root");
